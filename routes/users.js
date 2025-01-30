@@ -8,7 +8,7 @@ Ejemplo para el endpoint de crear un usuario nuevo*/
 
 const express = require("express");
 const router = express.Router();
-const User = require("../models/User.js"); 
+const User = require("../models/user.js"); 
 
 
 router.post("/create", async(req, res) => {
