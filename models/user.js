@@ -6,7 +6,7 @@ De esta forma tendremos una estructura que nos permitirá el uso de operaciones 
 que pueden realizarse en la base de datos.*/
 
 
-// User.js
+// models/user.js
 
 const mongoose = require('mongoose');
 
