@@ -8,8 +8,7 @@ Ejemplo para el endpoint de crear un usuario nuevo*/
 
 const express = require("express");
 const router = express.Router();
-const User = require("../models/user.js"); 
-
+const User = require("../models/User.js"); //IMPORTANTE el nombre de MODELS Siempre va la primer letra en MAYÚSCULAS!
 
 router.post("/create", async(req, res) => {
     try {
@@ -24,4 +23,3 @@ router.post("/create", async(req, res) => {
 });
 
 module.exports = router;
-

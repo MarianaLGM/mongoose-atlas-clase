@@ -16,6 +16,8 @@ const UserSchema = new mongoose.Schema({
     password: String,
 }, { timestamps: true });
 
-const User = mongoose.model('user', UserSchema);
+const User = mongoose.model('User', UserSchema);
 
 module.exports = User;
+
+//IMPORTANTE el nombre de MODELS Siempre va la primer letra en MAYÚSCULAS!
