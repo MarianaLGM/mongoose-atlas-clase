@@ -33,7 +33,7 @@ app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
 con operaciones CRUD para la colección de usuarios. Para poder probarlo podemos usar Postman o
 cualquier otra herramienta que nos permita hacer peticiones HTTP.*/
 
-
+//MONGO_URI="mongodb+srv://marianalobetogm:K8ueJMDG5H6J1PU0@cluster0.swmc7.mongodb.net/?retryWrites=true&w=majority"
 
 
 
