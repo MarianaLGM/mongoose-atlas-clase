@@ -8,9 +8,7 @@ Ejemplo para el endpoint de crear un usuario nuevo*/
 
 const express = require("express");
 const router = express.Router();
-const User = require("../models/User.js")//IMPORTANTE el nombre de MODELS Siempre va la primer letra en MAYÚSCULAS!
-
-
+const User = require("../models/user.js")//IMPORTANTE el nombre de MODELS Siempre va la primer letra en MAYÚSCULAS!
 
 
 //operaciones CRUD (Create, Read, Update, Delete)
